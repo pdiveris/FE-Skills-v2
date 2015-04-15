@@ -1,0 +1,160 @@
+HTML BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BODY #header {
+	MARGIN-TOP: 50px
+}
+#wrap2 {
+	MARGIN-TOP: 30px
+}
+#wrapper {
+	PADDING-TOP: 30px! important
+}
+#wrap {
+	PADDING-TOP: 30px
+}
+#main-top {
+	MARGIN-TOP: 10px
+}
+UNKNOWN {
+	
+}
+UNKNOWN {
+	MARGIN-TOP: 0px
+}
+#wrap4 {
+	MARGIN-TOP: 60px! important
+}
+#space-for-ie {
+	BORDER-TOP-WIDTH: 0px! important; DISPLAY: block; BORDER-LEFT-WIDTH: 0px! important; BORDER-BOTTOM-WIDTH: 0px! important; BORDER-RIGHT-WIDTH: 0px! important
+}
+#wrap #wrap2 #wrap3 {
+	MARGIN-TOP: -30px
+}
+BODY #wrap #wrap2 #header {
+	MARGIN-TOP: 0px
+}
+#rightcontent {
+	MARGIN-TOP: 30px! important
+}
+#leftcontent {
+	MARGIN-TOP: 30px! important
+}
+#Main #Title {
+	MARGIN-TOP: 30px! important
+}
+#b-navbar {
+	DISPLAY: block! important; Z-INDEX: 1; MIN-HEIGHT: 24px; LEFT: 0px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 5px; FONT: small "Trebuchet MS",Verdana,Arial,Sans-serif; WIDTH: 100%; COLOR: #47a; BORDER-BOTTOM: #024 1px solid; POSITION: absolute! important; TOP: 0px
+}
+#b-navbar A IMG {
+	DISPLAY: inline! important; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+
+@media All    
+{
+#b-navbar #b-logo {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; LEFT: 5px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 80px; POSITION: absolute! important; TOP: 3px; HEIGHT: 24px; BORDER-RIGHT-WIDTH: 0px
+}
+#b-logo IMG {
+	DISPLAY: inline! important
+}
+#b-search {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; FONT-SIZE: 85%; BACKGROUND: url(../../img/navbar/corner.gif) #147 no-repeat left bottom; PADDING-BOTTOM: 4px; MARGIN: 0px 0px 0px 100px; LINE-HEIGHT: 1em; PADDING-TOP: 4px; TEXT-ALIGN: left
+}
+#b-more {
+	DISPLAY: block! important; FLOAT: right; PADDING-TOP: 2px
+}
+
+}
+
+@media Handheld    
+{
+#b-navbar #b-logo {
+	LEFT: 0px; TOP: 0px
+}
+#b-search {
+	DISPLAY: none! important
+}
+#b-more {
+	DISPLAY: none! important
+}
+    }
+#b-more A {
+	MARGIN-LEFT: 4px
+}
+#b-query {
+	WIDTH: 12em; MARGIN-RIGHT: 0.25em
+}
+#b-query {
+	FONT-SIZE: x-small! important
+}
+#b-searchbtn {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 0.5em; POSITION: relative; TOP: -1px
+}
+#b-searchallbtn {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 0.5em; POSITION: relative; TOP: -1px
+}
+#b-this {
+	DISPLAY: block! important
+}
+#b-this A {
+	LINE-HEIGHT: 1em; MARGIN-RIGHT: 0.5em; WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+#b-this A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+
+@media All    
+{
+#b-sms {
+	DISPLAY: none! important
+}
+
+}
+
+@media Handheld    
+{
+BODY DIV.b-mobile {
+	DISPLAY: block
+}
+#b-sms {
+	PADDING-RIGHT: 7px; DISPLAY: inline! important; PADDING-LEFT: 7px; FONT-SIZE: 100%; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 1em; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#b-sms A {
+	LINE-HEIGHT: 1em; MARGIN-RIGHT: 0.5em; WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+#b-sms A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+
+}
+
+@media All    
+{
+#flagi {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: 1px solid; PADDING-LEFT: 3px; Z-INDEX: 300; RIGHT: 28px; VISIBILITY: hidden; PADDING-BOTTOM: 3px; BORDER-LEFT: 1px solid; WIDTH: 145px; PADDING-TOP: 3px; BORDER-BOTTOM: 1px solid; POSITION: absolute; TOP: 25px
+}
+
+}
+
+@media Handheld    
+{
+#flagi {
+	DISPLAY: none! important
+}
+    }
+#flagtop {
+	Z-INDEX: 301; BACKGROUND: no-repeat; LEFT: 45px; WIDTH: 9px; POSITION: absolute; TOP: -5px; HEIGHT: 5px
+}
+#top-filler {
+	Z-INDEX: 301; LEFT: 0px; WIDTH: 130px; POSITION: absolute; TOP: -6px; HEIGHT: 6px
+}
+#flagi-body {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000; LINE-HEIGHT: 15px; FONT-FAMILY: "Trebuchet MS", Vedana, Arial, Sans-serif; TEXT-ALIGN: center
+}
+#flagi-body A {
+	TEXT-DECORATION: none
+}
+#flagi-body A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}

@@ -1,0 +1,258 @@
+P { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000000 }
+TD { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000000 }
+TD.hexcol { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #ffffff }
+
+
+a.relative { position:relative; text-decoration:none; font-family:arial, helvetica, sans; font-size:14pt; z-index:10 }
+
+a { text-decoration: none }
+a:hover { text-decoration: underline }
+a.teacher { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333366; font-weight: bold; text-decoration: none }
+a.teacher:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333366; font-weight: bold; text-decoration: underline }
+a.whitetext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold }
+a.whitetext:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold }
+a.mfwhitetext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; text-decoration: none }
+a.mfwhitetext:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; text-decoration: underline }
+a.mflink { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: none }
+a.mflink:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: underline }
+a.priwhitetext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #FFFFFF; font-weight: bold }
+a.priwhitetext:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #FFFFFF; font-weight: bold }
+a.whitetext2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #FFFFFF; font-weight: bold }
+a.whitetext2:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #FFFFFF; font-weight: bold }
+a.whitetext3 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #FFFFFF; font-weight: bold }
+a.whitetext3:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #FFFFFF; font-weight: bold }
+a.whitetext4 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold; text-decoration: none }
+a.whitetext4:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold; text-decoration: underline }
+a.navtext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333366; font-weight: bold; text-decoration: none }
+a.navtext:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #CC3300; font-weight: bold; text-decoration: underline }
+a.pssidenav { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #CCCCFF; text-decoration: none }
+a.pssidenav:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #CCCCFF; text-decoration: underline }
+a.ps { color: #666699; text-decoration: none }
+a.ps:hover { color: #666699; text-decoration: underline }
+a.psbold { color: #666699; text-decoration: none; font-weight: bold }
+a.psbold:hover { color: #666699; text-decoration: underline; font-weight: bold }
+a.psob { color: #666699; text-decoration: none }
+a.psob:hover { color: #666699; text-decoration: underline }
+a.psurl { color: #666699; text-decoration: none; font-weight: bold }
+a.psurl:hover { color: #666699; text-decoration: underline; font-weight: bold }
+a.pssmall { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #666699; text-decoration: none }
+a.pssmall:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #666699; text-decoration: underline }
+a.helpbluesmall { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333366; font-weight: bold }
+a.helpbluesmall:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333366; font-weight: bold }
+a.smallblue { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333366; font-weight: bold }
+a.smallblue:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333366; font-weight: bold }
+a.smallorange { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FF6600; font-weight: bold }
+a.smallorange:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FF6600; font-weight: bold }
+a.orange { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #FF6600 }
+a.orange:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #FF6600 }
+a.redmore { font-family: Verdana, Arial, Helvetica, sans-serif; color: #CC0000; font-size: 11px; font-weight: bold; text-decoration: none }
+a.redmore:hover { font-family: Verdana, Arial, Helvetica, sans-serif; color: #CC0000; font-size: 11px; font-weight: bold; text-decoration: underline }
+a.priredmore { font-family: Verdana, Arial, Helvetica, sans-serif; color: #CC0000; font-size: 10pt; font-weight: bold; text-decoration: none }
+a.priredmore:hover { font-family: Verdana, Arial, Helvetica, sans-serif; color: #CC0000; font-size: 10pt; font-weight: bold; text-decoration: underline }
+a.threec { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #666699; font-weight: bold }
+a.threec:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #666699; font-weight: bold }
+a.featurelink { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333366; font-weight: bold }
+a.featurelink:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333366; font-weight: bold }
+a.fairlink { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #9999CC; text-decoration: none }
+a.fairlink:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #9999CC; text-decoration: underline }
+a.breadcrumb { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold; text-decoration: none }
+a.breadcrumb:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold; text-decoration: underline }
+a.myfileslink { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333366; text-decoration: none }
+a.myfileslink:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333366; text-decoration: underline }
+
+a.myfileslinkbig { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #333366; text-decoration: none; font-weight: bold }
+a.myfileslinkbig:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #333366; text-decoration: underline; font-weight: bold }
+
+a.myfilestopnav2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #FF6600; text-decoration: none }
+a.myfilestopnav2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #FF6600; text-decoration: underline }
+a.mynlink { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333366; text-decoration: none }
+a.mynlink:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333366; text-decoration: underline }
+a.mynlinkbig { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #333366; text-decoration: none }
+a.mynlinkbig:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #333366; text-decoration: underline }
+a.mynlinkblack { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #000000; text-decoration: none }
+a.mynlinkblack:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #000000; text-decoration: underline }
+a.newsnow { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FF6600; text-decoration: none }
+a.newsnow:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FF6600; text-decoration: underline }
+a.newssubjectslink { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: none }
+a.newssubjectslink:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: underline }
+a.loginedujobs { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333366; font-weight: bold; text-decoration: none }
+a.loginedujobs:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333366; font-weight: bold; text-decoration: underline }
+a.emailedujobs { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333366; font-weight: bold; text-decoration: none }
+a.emailedujobs:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333366; font-weight: bold; text-decoration: underline }
+
+a.lowhite { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #FFFFFF; text-decoration: none }
+a.lowhite:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #FFFFFF; text-decoration: underline }
+
+a.textlink { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #666699; text-decoration: none }
+a.textlink:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #666699; text-decoration: underline }
+
+a.calendarsmall { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: none }
+a.calendarsmall:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: underline }
+a.calendartextlink { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #333399; text-decoration: none }
+a.calendartextlink:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #333399; text-decoration: underline }
+
+a.webmailheading { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #333399; font-weight: bold; text-decoration: none }
+a.webmailheading:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #333399; font-weight: bold; text-decoration: underline }
+a.webmailsmall { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333399; text-decoration: none }
+a.webmailsmall:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333399; text-decoration: underline }
+a.webmailtext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: none }
+a.webmailtext:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: underline }
+
+a.newsnowlink2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: none; font-weight: bold }
+a.newsnowlink2:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: underline; font-weight: bold }
+a.newsnowlink { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #CC0000; text-decoration: none }
+a.newsnowlink:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #CC0000; text-decoration: underline }
+
+a.formblue { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #333399; font-weight: bold; text-decoration: none }
+a.formblue:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #333399; font-weight: bold; text-decoration: underline }
+
+.myform { margin: 0px; line-height: 0% }
+
+.center { text-align: center }
+
+.small { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000 }
+.small2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333366 }
+.bold { font-weight: bold }
+.help { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000 }
+.breadcrumb { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold }
+
+.breadcrumbend { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; }
+
+.search { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold }
+.login { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFCC00; font-weight: bold }
+.loginblue { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333366; font-weight: bold }
+.loginred { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #CC0000; font-weight: bold }
+.whitehead { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold }
+.purphead { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000033; font-weight: bold }
+.smallpurp { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333366; font-weight: bold }
+.white { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #FFFFFF }
+.whitept { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold }
+.date { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF }
+.dateblue { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333366 }
+.welcome { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #333366; font-weight: bold }
+.welcomewhite { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold }
+.newshead { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #FF6600; font-weight: bold }
+.features { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000 }
+.fair { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #9999CC }
+.logoffhead { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; color: #000000; font-weight: bold }
+.head { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000; font-weight: bold }
+.error { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #CC0000; font-weight: bold }
+.noerror { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #0000FF; font-weight: bold }
+.heading { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #000000; font-weight: bold }
+.navtext2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #CC3300; font-weight: bold }
+.orangetext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #FF6600; font-weight: bold }
+.bluebold { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #666699 }
+.red { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #CC0000 }
+.newssubjects { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000 }
+
+.bigredtitle { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15px; color: #CC0000; font-weight: bold }
+.bigredbody { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #CC0000 }
+
+.pstitles { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt; color: #666699; font-weight: bold }
+.pssubtitles { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; color: #666699; font-weight: bold }
+.pssidenavnolink { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000 }
+.pshead { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; color: #666699; font-weight: bold }
+.psstilesnolink { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFCC00 }
+
+
+.myfilestablehead { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold }
+.myfilestable { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333366 }
+.myfilestopnav { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #000000; font-weight: bold }
+.myfilestext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #000000 }
+.myfileshead { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000; font-weight: bold }
+
+
+.pridate { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #FFFFFF }
+.pripurphead { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #000033; font-weight: bold }
+.prismall { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #000000 }
+.prinewshead { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; color: #FF6600; font-weight: bold }
+.priseeme { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000 }
+
+.heading1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 24pt; color: #000000; font-weight: bold }
+.heading2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000; font-weight: bold }
+.mynviewingb { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000; font-weight: bold }
+.mynviewing { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000 }
+.myntablehead { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold }
+.myntable { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333366 }
+
+.h1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16pt; color: #000000; font-weight: bold }
+.h2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt; color: #000000; font-weight: bold }
+.h3 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000; font-weight: bold }
+.text { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000000 }
+
+.newsnowtext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000 }
+.newsnowdate { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; font-weight: bold }
+
+.calendartext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000 }
+.calendartextlarge { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #000000 }
+.calendartextwhite { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF }
+.calendarheading { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #FFFFFF }
+.calendarweekheading { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #333399; font-weight: bold }
+
+.fields { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000 }
+.fieldsbold { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; font-weight: bold }
+.webmailcat { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold }
+
+
+
+
+.smalltw { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333366 }
+.smalltwon { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #CC0000; font-weight: bold }
+
+
+
+.lgpstitles { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt; color: #000099; font-weight: bold }
+.lgpssubtitles { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000099; font-weight: bold }
+.lgpssidenavnolink { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000 }
+.lgpshead { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; color: #666699; font-weight: bold }
+.lgpsstilesnolink { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #CC0000 }
+
+a.lgpssidenav { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: none }
+a.lgpssidenav:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: underline }
+a.lgps { color: #000099; text-decoration: none }
+a.lgps:hover { color: #000099; text-decoration: underline }
+a.lgpsbold { color: #000099; text-decoration: none; font-weight: bold }
+a.lgpsbold:hover { color: #000099; text-decoration: underline; font-weight: bold }
+a.lgpsob { color: #000099; text-decoration: none }
+a.lgpsob:hover { color: #000099; text-decoration: underline }
+a.lgpsurl { color: #000099; text-decoration: none; font-weight: bold }
+a.lgpsurl:hover { color: #000099; text-decoration: underline; font-weight: bold }
+a.lgpssmall { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000099; text-decoration: none }
+a.lgpssmall:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000099; text-decoration: underline }
+
+
+.bpwhitehead { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #FFFFFF; font-weight: bold }
+.bpnewstext {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #000000 }
+
+a.bprednewstext {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #CC0000; font-weight: bold; text-decoration: none }
+a.bprednewstext:hover {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #CC0000; font-weight: bold; text-decoration: underline }
+a.bpnewsred { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #000066; font-weight: bold; text-decoration: none }
+a.bpnewsred:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #000066; font-weight: bold; text-decoration: underline }
+
+#textDiv {position:absolute; left:50px; top:50px; width:600px; height:450px; clip:rect(0,600,450,0);}
+
+.nlnheading { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; color: #FFFFFF; font-weight: bold }
+
+.thinimg { font-size: 1px; line-height: 0px }
+
+.qquestion { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; font-weight: bold }
+a.qanswer:link { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #333399; text-decoration: none }
+a.qanswer:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #333399; text-decoration: none }
+.qanswerinactive { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #666666; text-decoration: none }
+
+.qquestion2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000; font-weight: bold }
+a.qanswer2:link { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; color: #3333FF; font-weight: bold }
+a.qanswer2:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; color: #3333FF; font-weight: bold }
+.qanswerinactive2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; color: #666699; font-weight: bold }
+
+.hp2sectionheading { font-family: Verdana, Arial, Helvetica; font-size: 13px; font-weight: bold; color: #ffffff; }
+.hp2sectionheadingthin { font-family: Verdana, Arial, Helvetica; font-size: 13px; color: #ffffff; }
+.boldtablehead { font-family: Verdana, Arial, Helvetica; font-size: 11px; color: #000000; font-weight: bold; }
+.bluediscussion { font-family: Verdana, Arial, Helvetica; font-size: 11px; color: #6699CC; }
+.tablespeed { table-layout: fixed }
+
+.gatbluehead { font-family: Verdana, Arial, Helvetica; font-size: 15px; color: #3366CC; font-weight: bold }
+.gatblueheadsmall { font-family: Verdana, Arial, Helvetica; font-size: 13px; color: #3366CC; font-weight: bold }
+.newswhite { font-family: Verdana, Arial, Helvetica; font-size: 13px; color: #FFFFFF; font-weight: bold }
+a.gatmore { font-family: Verdana, Arial, Helvetica; font-size: 11px; color: #3366CC; font-weight: bold; text-decoration: none }
+a.gatmore:hover { font-family: Verdana, Arial, Helvetica; font-size: 11px; color: #3366CC; font-weight: bold; text-decoration: underline }
