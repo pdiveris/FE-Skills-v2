@@ -1,0 +1,33 @@
+#b-navbar {
+	BACKGROUND: url(../../img/navbar/4/bg.jpg) #ededed repeat-x left top; COLOR: #666; BORDER-BOTTOM: #ccc 1px solid
+}
+#b-search {
+	BACKGROUND: url(../../img/navbar/4/corner.gif) #ccc no-repeat left bottom
+}
+#b-query {
+	BORDER-RIGHT: #c3c3c3 1px solid; BORDER-TOP: #c3c3c3 1px solid; BORDER-LEFT: #c3c3c3 1px solid; BORDER-BOTTOM: #c3c3c3 1px solid
+}
+#b-this A {
+	COLOR: #333
+}
+#b-this A:hover {
+	COLOR: #930
+}
+#b-sms A {
+	COLOR: #333
+}
+#b-sms A:hover {
+	COLOR: #930
+}
+#flagi #flagtop {
+	BACKGROUND-IMAGE: url(../../img/navbar/4/flag_info_top.gif)
+}
+#flagi-body {
+	COLOR: #000000
+}
+#flagi {
+	BORDER-LEFT-COLOR: #dbdbdb; BACKGROUND: #999999; BORDER-BOTTOM-COLOR: #dbdbdb; BORDER-TOP-COLOR: #dbdbdb; BORDER-RIGHT-COLOR: #dbdbdb
+}
+#flagi-body A {
+	COLOR: #d2d2d2
+}
