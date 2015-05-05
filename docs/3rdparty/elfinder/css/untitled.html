@@ -1,0 +1,162 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Metadata Mapping Tool</title>
+    <style>
+        @import  url(//fonts.googleapis.com/css?family=Lato:700);
+        body {
+            margin:0;
+            font-family:'Lato', sans-serif;
+            color: #999;
+        }
+        .container {
+            padding: 7px;
+        }
+        .units-row {
+            margin-bottom: 7px !important;
+        }
+        ul.horizontal
+        {
+          margin-left: 0px;
+          list-style: none !important;
+          text-align: left !important;
+        }
+        ul.horizontal li {
+          display: inline;
+        }
+      .jisc {
+        color: #ea6000;
+      }
+
+    </style>
+    
+    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" ></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" href="http://mapping.dev/3rdparty/kube/css/kube.css">
+    <link rel="stylesheet" href="http://mapping.dev/3rdparty/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="http://mapping.dev/3rdparty/colorbox/colorbox.css"/>
+    <script src="http://mapping.dev/3rdparty/colorbox/jquery.colorbox.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+        });
+    </script>
+</head>
+<body>
+<style type="text/css">
+form {
+  display: inline;
+}
+html, body { height: 100% }
+.phpdebugbar-restore-btn {
+  display: none!important;
+}
+</style>
+<div class="units-row">
+    <div class="unit-100 unit-centered">
+    <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>VFS</title>
+
+		<!-- jQuery and jQuery UI (REQUIRED) -->
+    <script>
+      jQuery.browser = {};
+      (function () {
+        jQuery.browser.msie = false;
+        jQuery.browser.version = 0;
+        if (navigator.userAgent.match(/MSIE ([0-9]+)\./)) {
+          jQuery.browser.msie = true;
+          jQuery.browser.version = RegExp.$1;
+        }
+      })();
+    </script>
+
+		<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/themes/smoothness/jquery-ui.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+
+		<!-- elFinder CSS (REQUIRED) -->
+		<link rel="stylesheet" type="text/css" href="http://mapping.dev/3rdparty/elfinder/css/elfinder.min.css">
+		<link rel="stylesheet" type="text/css" href="http://mapping.dev/3rdparty/elfinder/css/theme.css">
+
+		<!-- elFinder JS (REQUIRED) -->
+		<script src="http://mapping.dev/3rdparty/elfinder/js/elfinder.min.js"></script>
+
+
+		<!-- elFinder initialization (REQUIRED) -->
+		<script type="text/javascript" charset="utf-8">
+			// Documentation for client options:
+			// https://github.com/Studio-42/elFinder/wiki/Client-configuration-options
+			$(document).ready(function() {
+				$('#elfinder').elfinder({
+					url : 'http://mapping.dev/3rdparty/elfinder/php/connector.php',
+          commands : [
+            'open', 'reload', 'quicklook',
+            'rm', 'duplicate', 'rename', 'mkdir',
+            'extract', 'archive', 'search', 'info', 'view', 'help'
+
+          ]
+				});
+			});
+		</script>
+	</head>
+	<body>
+
+		<!-- Element where elFinder will be created (REQUIRED) -->
+		<div id="elfinder"></div>
+
+	</body>
+</html>
+
+    </div>
+</div>
+<link rel="stylesheet" type="text/css" href="http://mapping.dev/_debugbar/assets/stylesheets?1423829459">
+<script type="text/javascript" src="http://mapping.dev/_debugbar/assets/javascript?1423122680"></script>
+<script type="text/javascript">jQuery.noConflict(true);</script>
+<script type="text/javascript">
+var phpdebugbar = new PhpDebugBar.DebugBar();
+phpdebugbar.addTab("messages", new PhpDebugBar.DebugBar.Tab({"icon":"list-alt","title":"Messages", "widget": new PhpDebugBar.Widgets.MessagesWidget()}));
+phpdebugbar.addIndicator("time", new PhpDebugBar.DebugBar.Indicator({"icon":"clock-o","tooltip":"Request Duration"}), "right");
+phpdebugbar.addTab("timeline", new PhpDebugBar.DebugBar.Tab({"icon":"tasks","title":"Timeline", "widget": new PhpDebugBar.Widgets.TimelineWidget()}));
+phpdebugbar.addIndicator("memory", new PhpDebugBar.DebugBar.Indicator({"icon":"cogs","tooltip":"Memory Usage"}), "right");
+phpdebugbar.addTab("exceptions", new PhpDebugBar.DebugBar.Tab({"icon":"bug","title":"Exceptions", "widget": new PhpDebugBar.Widgets.ExceptionsWidget()}));
+phpdebugbar.addTab("views", new PhpDebugBar.DebugBar.Tab({"icon":"leaf","title":"Views", "widget": new PhpDebugBar.Widgets.TemplatesWidget()}));
+phpdebugbar.addTab("route", new PhpDebugBar.DebugBar.Tab({"icon":"share","title":"Route", "widget": new PhpDebugBar.Widgets.VariableListWidget()}));
+phpdebugbar.addIndicator("currentroute", new PhpDebugBar.DebugBar.Indicator({"icon":"share","tooltip":"Route"}), "right");
+phpdebugbar.addTab("queries", new PhpDebugBar.DebugBar.Tab({"icon":"inbox","title":"Queries", "widget": new PhpDebugBar.Widgets.SQLQueriesWidget()}));
+phpdebugbar.addTab("emails", new PhpDebugBar.DebugBar.Tab({"icon":"inbox","title":"Mails", "widget": new PhpDebugBar.Widgets.MailsWidget()}));
+phpdebugbar.addTab("request", new PhpDebugBar.DebugBar.Tab({"icon":"tags","title":"Request", "widget": new PhpDebugBar.Widgets.VariableListWidget()}));
+phpdebugbar.setDataMap({
+"messages": ["messages.messages", []],
+"messages:badge": ["messages.count", null],
+"time": ["time.duration_str", '0ms'],
+"timeline": ["time", {}],
+"memory": ["memory.peak_usage_str", '0B'],
+"exceptions": ["exceptions.exceptions", []],
+"exceptions:badge": ["exceptions.count", null],
+"views": ["views", []],
+"views:badge": ["views.nb_templates", 0],
+"route": ["route", {}],
+"currentroute": ["route.uri", ],
+"queries": ["queries", []],
+"queries:badge": ["queries.nb_statements", 0],
+"emails": ["swiftmailer_mails.mails", []],
+"emails:badge": ["swiftmailer_mails.count", null],
+"request": ["request", {}]
+});
+phpdebugbar.restoreState();
+phpdebugbar.ajaxHandler = new PhpDebugBar.AjaxHandler(phpdebugbar);
+phpdebugbar.ajaxHandler.bindToXHR();
+phpdebugbar.setOpenHandler(new PhpDebugBar.OpenHandler({"url":"http:\/\/mapping.dev\/_debugbar\/open"}));
+phpdebugbar.addDataSet({"__meta":{"id":"b984c06f763b5b13ef90fb972c28ed27","datetime":"2015-02-27 16:34:27","utime":1425054867.9848,"method":"GET","uri":"\/preview\/378548","ip":"127.0.0.1"},"php":{"version":"5.5.14"},"messages":{"count":0,"messages":[]},"time":{"start":1425054867.9046,"end":1425054867.9849,"duration":0.080229997634888,"duration_str":"80.23ms","measures":[{"label":"Booting","start":1425054867.9046,"relative_start":0,"end":1425054867.9648,"relative_end":1425054867.9648,"duration":0.060219049453735,"duration_str":"60.22ms","params":[],"collector":null},{"label":"Application","start":1425054867.9669,"relative_start":0.062256097793579,"end":1425054867.9756,"relative_end":1425054867.9756,"duration":0.0087110996246338,"duration_str":"8.71ms","params":[],"collector":null},{"label":"After application","start":1425054867.9756,"relative_start":0.070983171463013,"end":1425054867.9849,"relative_end":2.1457672119141e-6,"duration":0.0092489719390869,"duration_str":"9.25ms","params":[],"collector":null}]},"memory":{"peak_usage":13107200,"peak_usage_str":"12.5MB"},"exceptions":{"count":0,"exceptions":[]},"views":{"nb_templates":3,"templates":[{"name":"preview (app\/views\/preview.blade.php)","param_count":1,"params":["bitstream"],"type":"blade"},{"name":"conversions.zip (app\/views\/conversions\/zip.blade.php)","param_count":2,"params":["bitstream","vfs"],"type":"blade"},{"name":"layouts.plain (app\/views\/layouts\/plain.blade.php)","param_count":5,"params":["obLevel","__env","app","errors","bitstream"],"type":"blade"}]},"route":{"uri":"GET preview\/{id?}","uses":"Closure {#399\n  reflection: \"\"\"\n    Closure [ <user> function {closure} ] {\n      @@ \/Users\/pedro\/Sites\/mapping\/app\/routes.php 777 - 781\n    \n      - Parameters [1] {\n        Parameter #0 [ <required> $id ]\n      }\n    }\n    \"\"\"\n}","file":"app\/routes.php:777-781"},"queries":{"nb_statements":2,"nb_failed_statements":0,"accumulated_duration":0.00104,"accumulated_duration_str":"1.04ms","statements":[{"sql":"select * from `users` where `users`.`id` = '4' limit 1","params":{"0":"4","hints":"Use <code>SELECT *<\/code> only if you need all columns from table<br \/><code>LIMIT<\/code> without <code>ORDER BY<\/code> causes non-deterministic results, depending on the query execution plan"},"duration":0.00057,"duration_str":"570\u03bcs","stmt_id":null,"connection":"fe-skills"},{"sql":"select * from `throttle` where `user_id` = '4' limit 1","params":{"0":"4","hints":"Use <code>SELECT *<\/code> only if you need all columns from table<br \/><code>LIMIT<\/code> without <code>ORDER BY<\/code> causes non-deterministic results, depending on the query execution plan"},"duration":0.00047,"duration_str":"470\u03bcs","stmt_id":null,"connection":"fe-skills"}]},"swiftmailer_mails":{"count":0,"mails":[]},"request":{"format":"html","content_type":"text\/html; charset=UTF-8","status_text":"OK","status_code":"200","request_query":"[]","request_request":"[]","request_headers":"array:7 [\n  \"host\" => array:1 [\n    0 => \"mapping.dev\"\n  ]\n  \"connection\" => array:1 [\n    0 => \"keep-alive\"\n  ]\n  \"accept\" => array:1 [\n    0 => \"text\/html,application\/xhtml+xml,application\/xml;q=0.9,image\/webp,*\/*;q=0.8\"\n  ]\n  \"user-agent\" => array:1 [\n    0 => \"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/40.0.2214.115 Safari\/537.36\"\n  ]\n  \"accept-encoding\" => array:1 [\n    0 => \"gzip, deflate, sdch\"\n  ]\n  \"accept-language\" => array:1 [\n    0 => \"en-US,en;q=0.8,el;q=0.6\"\n  ]\n  \"cookie\" => array:1 [\n    0 => \"php-console-server=5; php-console-client=eyJwaHAtY29uc29sZS1jbGllbnQiOjV9; laravel_session=eyJpdiI6IkR3bENOeXcxRE5tOVFKcDFRTXNFV3c9PSIsInZhbHVlIjoiQ2lMaUZxcmpvQk9iNlROVDc2eGlyak55U3VcL0hYaVA3cHZpTlNkell1UUg1SElIeGZXeU1rb2RcLzRjNm53WVVlQWJMeVNUdXVnSTR6c3lTOXJLN2pyQT09IiwibWFjIjoiYzViMTNiODFjYWZjMTMxYzIxZDcxMzNkNTdlNzA0NTBhMDQ5ZjUzNWFkMmY1NGI4Y2Y3NjIyYTk0NDM3MzkxNiJ9\"\n  ]\n]","request_server":"array:32 [\n  \"REDIRECT_STATUS\" => \"200\"\n  \"HTTP_HOST\" => \"mapping.dev\"\n  \"HTTP_CONNECTION\" => \"keep-alive\"\n  \"HTTP_ACCEPT\" => \"text\/html,application\/xhtml+xml,application\/xml;q=0.9,image\/webp,*\/*;q=0.8\"\n  \"HTTP_USER_AGENT\" => \"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/40.0.2214.115 Safari\/537.36\"\n  \"HTTP_ACCEPT_ENCODING\" => \"gzip, deflate, sdch\"\n  \"HTTP_ACCEPT_LANGUAGE\" => \"en-US,en;q=0.8,el;q=0.6\"\n  \"HTTP_COOKIE\" => \"php-console-server=5; php-console-client=eyJwaHAtY29uc29sZS1jbGllbnQiOjV9; laravel_session=eyJpdiI6IkR3bENOeXcxRE5tOVFKcDFRTXNFV3c9PSIsInZhbHVlIjoiQ2lMaUZxcmpvQk9iNlROVDc2eGlyak55U3VcL0hYaVA3cHZpTlNkell1UUg1SElIeGZXeU1rb2RcLzRjNm53WVVlQWJMeVNUdXVnSTR6c3lTOXJLN2pyQT09IiwibWFjIjoiYzViMTNiODFjYWZjMTMxYzIxZDcxMzNkNTdlNzA0NTBhMDQ5ZjUzNWFkMmY1NGI4Y2Y3NjIyYTk0NDM3MzkxNiJ9\"\n  \"PATH\" => \"\/usr\/bin:\/bin:\/usr\/sbin:\/sbin\"\n  \"SERVER_SIGNATURE\" => \"\"\n  \"SERVER_SOFTWARE\" => \"Apache\/2.4.9 (Unix) PHP\/5.5.14\"\n  \"SERVER_NAME\" => \"mapping.dev\"\n  \"SERVER_ADDR\" => \"127.0.0.1\"\n  \"SERVER_PORT\" => \"80\"\n  \"REMOTE_ADDR\" => \"127.0.0.1\"\n  \"DOCUMENT_ROOT\" => \"\/Users\/pedro\/Sites\/mapping\/docs\"\n  \"REQUEST_SCHEME\" => \"http\"\n  \"CONTEXT_PREFIX\" => \"\"\n  \"CONTEXT_DOCUMENT_ROOT\" => \"\/Users\/pedro\/Sites\/mapping\/docs\"\n  \"SERVER_ADMIN\" => \"pedro@diveris.org\"\n  \"SCRIPT_FILENAME\" => \"\/Users\/pedro\/Sites\/mapping\/docs\/index.php\"\n  \"REMOTE_PORT\" => \"52847\"\n  \"REDIRECT_URL\" => \"\/preview\/378548\"\n  \"GATEWAY_INTERFACE\" => \"CGI\/1.1\"\n  \"SERVER_PROTOCOL\" => \"HTTP\/1.1\"\n  \"REQUEST_METHOD\" => \"GET\"\n  \"QUERY_STRING\" => \"\"\n  \"REQUEST_URI\" => \"\/preview\/378548\"\n  \"SCRIPT_NAME\" => \"\/index.php\"\n  \"PHP_SELF\" => \"\/index.php\"\n  \"REQUEST_TIME_FLOAT\" => 1425054867.904\n  \"REQUEST_TIME\" => 1425054867\n]","request_cookies":"array:3 [\n  \"php-console-server\" => null\n  \"php-console-client\" => null\n  \"laravel_session\" => \"26185b729178b2069001dd78f8836f2277894de6\"\n]","response_headers":"array:3 [\n  \"cache-control\" => array:1 [\n    0 => \"no-cache\"\n  ]\n  \"date\" => array:1 [\n    0 => \"Fri, 27 Feb 2015 16:34:27 GMT\"\n  ]\n  \"content-type\" => array:1 [\n    0 => \"text\/html; charset=UTF-8\"\n  ]\n]","path_info":"\/preview\/378548","session_attributes":"array:5 [\n  \"_token\" => \"uDArGpJIQm0ojESjJBnQxY9XIdqnHAhGZDORlvJq\"\n  \"flash\" => array:2 [\n    \"old\" => []\n    \"new\" => []\n  ]\n  \"cartalyst_sentry\" => array:2 [\n    0 => 4\n    1 => \"$2y$10$HMH85eDy3g0N7ughI8B\/YOowEG7E8qoJuNVTX2ujch45Pj\/xeBctW\"\n  ]\n  \"requests\" => array:94 [\n    \"login\" => 1\n    \"\/\" => 1\n    \"resources\" => 214\n    \"view\/jorum-10949\/12776\" => 2\n    \"preview\/256325\" => 2\n    \"view\/jorum-10949\/14732\" => 7\n    \"preview\/376022\" => 4\n    \"view\/jorum-10949\/19209\" => 2\n    \"view\/jorum-10949\/11653\" => 1\n    \"preview\/208152\" => 1\n    \"view\/jorum-10949\/15269\" => 1\n    \"preview\/379971\" => 1\n    \"view\/jorum-10949\/16157\" => 1\n    \"view\/jorum-10949\/15088\" => 2\n    \"preview\/378542\" => 2\n    \"view\/jorum-10949\/16778\" => 1\n    \"_debugbar\/assets\/javascript\" => 117\n    \"_debugbar\/assets\/stylesheets\" => 53\n    \"subjectareas\" => 2\n    \"redis\" => 53\n    \"redis\/delete\/laravel:0f7c1ca601dd886427c73ffde2a971bb\" => 1\n    \"redis\/delete\/laravel:4ac3943b015080fa82b645eaf4eadfbf\" => 1\n    \"redis\/delete\/laravel:e885f420c13595a66c45febed28f783c\" => 1\n    \"redis\/delete\/laravel:5f9f7cee03fb94b1455b2d4a996ee071\" => 1\n    \"redis\/delete\/laravel:c3ccf08d57560baf9cd2c61ea6603f54\" => 1\n    \"redis\/delete\/laravel:a3f4897c12687b06597e044d6540fdac\" => 1\n    \"redis\/delete\/laravel:e62b2ef64ce4756d34c914fbcf02ba47\" => 1\n    \"redis\/delete\/laravel:deac2e46bac6eb82bf4f993782c7714c\" => 1\n    \"redis\/delete\/laravel:4cdda8dad8875b2554cb9348f575cc23\" => 1\n    \"redis\/delete\/laravel:69e0355d8542c853120111039f20c2e2\" => 1\n    \"redis\/delete\/laravel:f467d095fd681f5969e4847faac63ce2bbed5883\" => 1\n    \"redis\/delete\/laravel:3e0d5e58cff39f9404217a7a0109ebf4\" => 1\n    \"redis\/delete\/laravel:61f1cc8105f8234f3f5279a9c558ad15\" => 1\n    \"redis\/delete\/laravel:48042879714c314d07d5ce7d03f76e37\" => 1\n    \"redis\/delete\/laravel:41f9f270b4a90fee57fdabecf4fdb587\" => 1\n    \"redis\/delete\/laravel:b3a7ec2c618eb4f4c67f33288f435d6d\" => 1\n    \"redis\/delete\/laravel:a437d87edef8a16b384dea4d7ef39b3a\" => 1\n    \"redis\/delete\/laravel:dd12d94f852dd4e1cc681ba6072e4368\" => 1\n    \"redis\/delete\/laravel:674506d143f8d352220bae7d2bdef143\" => 1\n    \"redis\/delete\/laravel:1da1ac439c0076402edb39e37e8acdf0\" => 1\n    \"redis\/delete\/laravel:cf826f0639e5334ad017b5b1d0f0a864\" => 1\n    \"redis\/delete\/laravel:0979b3528bc9b4ca696e667e05d0c3cc\" => 1\n    \"redis\/delete\/laravel:42e9fda00ac0051074eacdba6295a44c\" => 1\n    \"redis\/delete\/laravel:user_rights\" => 4\n    \"redis\/delete\/laravel:82b65f3f44b5f153bef9a49dff19ff4d\" => 1\n    \"redis\/delete\/laravel:eacb0e81209ab4bc67c998b374d41e22\" => 1\n    \"redis\/delete\/laravel:d69ced84710efa1377d5a097c3ffafd5\" => 1\n    \"redis\/delete\/laravel:e293cf548f378d882e6495866a6bcb61\" => 1\n    \"redis\/delete\/laravel:69b564737e327a1fbdf4a11678989ce2\" => 1\n    \"redis\/delete\/laravel:91d448f7f24b3433b4da6350cb09e64d\" => 1\n    \"redis\/delete\/laravel:9827b29ca1eec61f5525d17a0219f36c\" => 1\n    \"redis\/delete\/laravel:bffb703d249ed762fc377ac174765c59\" => 1\n    \"redis\/delete\/laravel:cf1a08568c085746a61ab48454d3e0be\" => 1\n    \"redis\/delete\/laravel:7aaac8c35ea6a9daf02ad4ecf37fd37a\" => 1\n    \"redis\/delete\/laravel:04d6fc9aa0ca1caa93a8f89d451b8ce5\" => 1\n    \"redis\/delete\/laravel:51af7d52f12e96433fd8ad1bb4964739\" => 1\n    \"redis\/delete\/laravel:1c47380ffe1eef8fe12a46d64e044a52\" => 1\n    \"redis\/delete\/laravel:26185b729178b2069001dd78f8836f2277894de6\" => 4\n    \"redis\/delete\/laravel:caa4d90475f0100a3c958e7e6c171fa3\" => 1\n    \"redis\/delete\/laravel:a079c18be6d027bd33d0a04a187d2d15\" => 1\n    \"redis\/delete\/laravel:f83a6f755852cd9fcc042ff3fb68fbd3\" => 1\n    \"redis\/edit\/laravel:6cb1fc53c9b6d470692595c4b272f58c\" => 1\n    \"redis\/edit\/laravel:a437d87edef8a16b384dea4d7ef39b3a\" => 1\n    \"redis\/edit\/laravel:41f9f270b4a90fee57fdabecf4fdb587\" => 1\n    \"redis\/edit\/laravel:c30cd224f9367cf359d5435e459ca0e2\" => 1\n    \"redis\/edit\/laravel:fd5a1706d7806fe089ee6b11b27d1a7f\" => 1\n    \"view\/jorum-10949\/2081\" => 1\n    \"preview\/80312\" => 1\n    \"view\/jorum-10949\/18473\" => 1\n    \"view\/jorum-10949\/13932\" => 1\n    \"preview\/318815\" => 1\n    \"view\/jorum-10949\/16295\" => 3\n    \"view\/jorum-10949\/15115\" => 1\n    \"preview\/378771\" => 2\n    \"redis\/edit\/laravel:e39783178461e35082e0da9071059219\" => 1\n    \"redis\/edit\/laravel:673cb57728d1f05ace79e0575e8c7523\" => 1\n    \"redis\/edit\/laravel:3039908db78d8b37eda6a30b46c13199\" => 1\n    \"view\/jorum-10949\/15058\" => 2\n    \"preview\/378327\" => 3\n    \"download\" => 2\n    \"view\/jorum-10949\/15078\" => 2\n    \"preview\/378461\" => 2\n    \"view\/jorum-10949\/15089\" => 40\n    \"preview\/378548\" => 52\n    \"view\/jorum-10949\/15097\" => 3\n    \"view\/jorum-10949\/11603\" => 7\n    \"preview\/207512\" => 4\n    \"preview\/207515\" => 1\n    \"preview\/207513\" => 1\n    \"view\/jorum-10949\/11734\" => 1\n    \"preview\/211373\" => 1\n    \"view\/jorum-10949\/17106\" => 1\n    \"resource\/publish\/jorum-10949\/12776\" => 2\n    \"edit\/jorum-10949\/12776\" => 1\n  ]\n  \"PHPDEBUGBAR_STACK_DATA\" => []\n]"}}, "b984c06f763b5b13ef90fb972c28ed27");
+
+</script>
+</body>
+</html>

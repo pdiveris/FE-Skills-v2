@@ -1,0 +1,107 @@
+  <div class="jumbotron">
+      <div class="units-row">
+        <div class="unit-70" style="border: 0px dotted orange; padding-bottom: 6px;">
+         <h1>FE Skills Window</h1>
+          <div id="search_main" class="spaced">
+            <input type="search" ng-model="yourName" ng-change="updateResultsFromScratch()" 
+              laceholder="search..." 
+              class="width-100"
+              /> 
+
+          </div>
+        </div>
+      </div>  
+  </div>
+  <div class="intro" ng-show="!hasQuery()">
+    <div class="units-row">
+        <div class="unit-centered unit-80" id="filters">
+          <div class="units-row">
+            <div class="unit-50">
+              <h1 class="welcome">Welcome to the FE Skills Window</h1>
+              <p>The Jisc FE Skills Window is a Research and Development project, being managed by Jisc’s Digital Resources division.</p>
+              <p>Our aim is to investigate and develop ways for practitioners across the FE and Skills sector to discover the wealth of freely available digital content available to them.</p>
+            </div>
+            <div class="unit-50">
+              <img src="assets/img/digital-bookshelf.jpg" alt="Digital bookshelf" />
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="units-row">
+        <div class="unit-80 unit-centered section-services">
+            <span class="label label-jisc-blue"><h2 class="blue-block-heading">Discover digital content from...</h2></span>
+        </div>
+    </div>
+    <div class="units-row">
+        <div class="unit-80 unit-centered logos">
+          <div class="unit-row">
+            <div class="unit-33">
+              <img src="assets/img/jorum-300.png" alt="Jorum" />
+            </div>
+            <div class="unit-33">
+              <img src="assets/img/ht-300.png" alt="Hairdressing Training" />
+            </div>
+            <div class="unit-33">
+              <img src="assets/img/mediahub-300.png" alt="Mediahub" />
+            </div>
+
+          </div>
+        </div>
+    </div>
+  </div>
+ 
+  <div class="workhorse" ng-show="hasQuery()">
+    <div class="units-row" ng-show="false">
+        <div class="unit-centered unit-80" id="filters">
+          <!-- code below needs moving to a directive -->
+            <ul>
+              <li ng-repeat="button in sources">
+                <button
+                  ng-click="toggleFilter(button)" 
+                  class="btn btn-small btn-round btn-blue {{button.state}}" 
+                  value="{{button.id}}">{{button.label}}</button>
+              </li>
+            </ul>
+  
+        </div>
+    </div>
+
+    <div class="units-row" class="tight">
+      <div class="unit-centered unit-80" id="pagiwrap">
+        <div id="pagination" class="units-row spaced tight" >
+          <div class="unit-60 bold">
+            Page {{ pageCurrent }} of {{ pageCount }}, showing results {{ resultsStart }} - {{ resultsEnd }} of {{ totalCount }}
+          </div>
+          <div class="unit-40 text-right">
+            <!-- re-introduce directives, one at a time... -->
+            <div x-pagination></div>
+            <!-- stop directive -->
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="units-row">
+    <div class="unit-80 unit-centered results"><!-- can only include one view ast it stands -->
+      <div class="units-row">
+        <div class="unit-80">
+          <ul class="result_list">
+            <li ng-repeat="f in fields" class="thumbnail phone-listing">
+              <a href="#/resources/{{f._id}}">{{f._source.summary_title}}</a>
+              <p>{{f._source.description[0]['value']}}<br/>
+              Published by <a href="#/{{item.publisher}}">{{f._source.lifecycle['publication'][0].publisher[0].name[0].value}}</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="unit-20 unit-push-right" ng-include="'partials/aggregation-filters.html'"></div><!-- 20R -->
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+</div>
