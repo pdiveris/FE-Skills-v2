@@ -18,7 +18,7 @@ var userFilters = [
       {'label': 'Business Management', 'checked': false, 'id': 2003},
       {'label': 'Busilding and construction', 'checked': false, 'id': 2004},
       {'label': 'Personal care and appearence', 'checked': false, 'id': 2005},
-      {'label': 'Construction and Building', 'checked': false},
+      {'label': 'Construction and Building', 'checked': false}
     ]
   },
   {
@@ -30,13 +30,13 @@ var userFilters = [
     'tags': [
       {'label': 'Jorum', 'checked': false, 'value': 'jorum', 'id': 1001},
       {'label': 'Hairdressing Training', 'checked': false, 'value': 'ht', 'id': 1002},
-      {'label': 'Mediahub', 'checked': false, 'value': 'mediahub', 'id': 1004},
+      {'label': 'Mediahub', 'checked': false, 'value': 'mediahub', 'id': 1004}
     ]
   },
   {
     'title': 'Resource Type',
     'id':102,
-    'class': 'hidden',    
+    'class': 'hidden', 
   },
   {
     'title': 'Level',
@@ -46,13 +46,13 @@ var userFilters = [
   {
     'title': 'Currency',
     'id':103,
-    'class': 'hidden',    
+    'class': 'hidden' 
   },
   {
     'title': 'Licence',
     'id':104,
-    'class': 'hidden',    
-  },
+    'class': 'hidden'
+  }
 
 ];
 
@@ -259,38 +259,39 @@ var clientSearch = function(client, $scope, body) {
 var app = angular.module('aggregationServices', ['elasticsearch']);
 
 app.service('client', function (esFactory) {
-	return esFactory({
+  return esFactory({
     //   host: '130.88.120.147:9200',
     // host: 'www.definitio.org:9200',
-     host: 'es.definitio.org:80',
+    // host: 'es.definitio.org:80',
+        host: 'feskills.mimas.ac.uk:80',
         apiVersion: '1.2',
         log: 'trace'
-			});
+      });
 });
 // factory 
 app.factory('Init',function() {
-	return {
+  return {
     apiCall: function(data,$scope) {
       return call(data,$scope);
     },
-		aggs : function() {
-			return initAggregations();
-		},
+    aggs : function() {
+      return initAggregations();
+    },
     userFilters: function() {
       return initUserFilters();
     },
-		filters : function() {
-			return initFilters();
-		},
+    filters : function() {
+      return initFilters();
+    },
     sources: function() {
       return initSources();
     },
-		query : function(filters) {
-			return initQuery(filters);
-		},
-		search : function(query,aggs) {
-			return initSearch(query,aggs);
-		},
+    query : function(filters) {
+      return initQuery(filters);
+    },
+    search : function(query,aggs) {
+      return initSearch(query,aggs);
+    },
     clientSearch: function(client, $scope, body) {
       return clientSearch(client, $scope, body);
     },
@@ -396,7 +397,7 @@ app.factory('Init',function() {
       }
       return theSelectedFacets;
     }
-	}
+  }
 });
 
 app.directive('pagination', function() {
